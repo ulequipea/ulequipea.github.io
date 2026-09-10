@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>男人必看10幅画-艺术鉴赏与精神启示经典名画指南</title>
+    <meta name="description" content="男人必看10幅画，精选从文艺复兴到现代艺术中体现勇气、智慧、力量与深邃思想的世界名画，深入解析画作背景、艺术价值与给当代男性的精神启示。">
+    <meta name="keywords" content="男人必看10幅画,男性艺术鉴赏,经典名画,艺术启示,世界名画赏析,男性气质艺术">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Noto Serif SC", "Songti SC", SimSun, Georgia, serif;
+            background-color: #f5f2ec;
+            color: #2c2c2c;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .site-header {
+            background: #1a1a1a;
+            padding: 18px 0;
+            border-bottom: 3px solid #c9a227;
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .logo-icon {
+            font-size: 28px;
+            color: #c9a227;
+        }
+        .site-title {
+            color: #f0ede6;
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+        .site-nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+        .site-nav a {
+            color: #bdbdbd;
+            text-decoration: none;
+            font-size: 14px;
+            letter-spacing: 1px;
+            padding: 5px 0;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s;
+            font-family: "Noto Sans SC", sans-serif;
+        }
+        .site-nav a:hover {
+            color: #c9a227;
+            border-bottom-color: #c9a227;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            padding: 70px 0 60px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::after {
+            content: "◈";
+            position: absolute;
+            right: 5%;
+            bottom: -20px;
+            font-size: 160px;
+            color: rgba(201, 162, 39, 0.08);
+        }
+        .hero h1 {
+            color: #f0ede6;
+            font-size: 42px;
+            font-weight: 700;
+            letter-spacing: 6px;
+            margin-bottom: 16px;
+            position: relative;
+            z-index: 2;
+        }
+        .hero p {
+            color: #a8a29a;
+            font-size: 16px;
+            max-width: 650px;
+            margin: 0 auto;
+            line-height: 1.8;
+            position: relative;
+            z-index: 2;
+        }
+        .hero-divider {
+            width: 80px;
+            height: 2px;
+            background: #c9a227;
+            margin: 25px auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Intro */
+        .intro-section {
+            background: #f5f2ec;
+            padding: 55px 0;
+        }
+        .intro-content {
+            display: flex;
+            gap: 40px;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        .intro-text {
+            flex: 1;
+            min-width: 280px;
+        }
+        .intro-text h2 {
+            font-size: 26px;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            border-left: 4px solid #c9a227;
+            padding-left: 18px;
+        }
+        .intro-text p {
+            font-size: 15px;
+            color: #4a4a4a;
+            margin-bottom: 14px;
+            text-align: justify;
+        }
+        .intro-highlight {
+            background: #fff;
+            padding: 20px 22px;
+            border-radius: 4px;
+            border: 1px solid #e2ddd2;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+            flex: 0 0 340px;
+        }
+        .intro-highlight h3 {
+            font-size: 17px;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        .intro-highlight ul {
+            list-style: none;
+        }
+        .intro-highlight li {
+            font-size: 14px;
+            color: #555;
+            padding: 6px 0;
+            border-bottom: 1px dashed #eae5da;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .intro-highlight li:last-child {
+            border-bottom: none;
+        }
+        .intro-highlight li::before {
+            content: "◆";
+            color: #c9a227;
+            font-size: 10px;
+        }
+
+        /* Paintings Grid */
+        .paintings-section {
+            padding: 60px 0 30px;
+            background: #faf8f4;
+        }
+        .section-heading {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .section-heading h2 {
+            font-size: 32px;
+            letter-spacing: 4px;
+            color: #1a1a1a;
+            font-weight: 700;
+        }
+        .section-heading p {
+            color: #7a7a7a;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+        .paintings-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 35px;
+            margin-bottom: 40px;
+        }
+        .painting-card {
+            background: #fff;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+            transition: transform 0.3s ease, box-shadow 0.3s;
+            border-top: 4px solid #c9a227;
+        }
+        .painting-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 28px rgba(0,0,0,0.1);
+        }
+        .painting-image {
+            height: 230px;
+            background: #e8e2d6;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .pimg-1 { background: linear-gradient(140deg, #3a3a3a, #1a1a1a); }
+        .pimg-2 { background: linear-gradient(140deg, #5c3a21, #2b1a0e); }
+        .pimg-3 { background: linear-gradient(140deg, #6b1d1d, #2c0a0a); }
+        .pimg-4 { background: linear-gradient(140deg, #1d3a5c, #0a1a2c); }
+        .pimg-5 { background: linear-gradient(140deg, #4a5a3a, #1a2a1a); }
+        .pimg-6 { background: linear-gradient(140deg, #2a2a4a, #0e0e1e); }
+        .pimg-7 { background: linear-gradient(140deg, #6b4a1d, #2c1a0a); }
+        .pimg-8 { background: linear-gradient(140deg, #3a5a6b, #1a2a3c); }
+        .pimg-9 { background: linear-gradient(140deg, #4a1d4a, #1a0a1a); }
+        .pimg-10 { background: linear-gradient(140deg, #5a3a2a, #1a1a1a); }
+        .painting-image span {
+            font-size: 56px;
+            opacity: 0.2;
+            color: #fff;
+            font-family: Georgia, serif;
+        }
+        .painting-number {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: rgba(201, 162, 39, 0.9);
+            color: #1a1a1a;
+            font-weight: 700;
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            font-family: "Noto Sans SC", sans-serif;
+        }
+        .painting-info {
+            padding: 25px;
+        }
+        .painting-info h3 {
+            font-size: 20px;
+            color: #1a1a1a;
+            margin-bottom: 4px;
+            font-weight: 700;
+        }
+        .painting-artist {
+            color: #8a7a5a;
+            font-size: 13px;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+            font-family: "Noto Sans SC", sans-serif;
+        }
+        .painting-info p {
+            font-size: 14px;
+            color: #4a4a4a;
+            line-height: 1.7;
+            text-align: justify;
+        }
+        .painting-tags {
+            margin-top: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .tag {
+            background: #f0ece3;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            color: #6b5a3a;
+            font-family: "Noto Sans SC", sans-serif;
+        }
+
+        /* Theme section */
+        .theme-section {
+            padding: 50px 0;
+            background: #f5f2ec;
+        }
+        .theme-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .theme-item {
+            background: #fff;
+            padding: 28px 22px;
+            border-radius: 4px;
+            border-left: 4px solid #c9a227;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+        }
+        .theme-item h3 {
+            font-size: 18px;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+        .theme-item p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.7;
+        }
+        .theme-item .theme-icon {
+            font-size: 28px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        /* Viewing guide */
+        .guide-section {
+            padding: 55px 0;
+            background: #fff;
+        }
+        .guide-wrap {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .guide-main {
+            flex: 1;
+            min-width: 300px;
+        }
+        .guide-main h2 {
+            font-size: 26px;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+        }
+        .guide-main ol {
+            padding-left: 20px;
+        }
+        .guide-main li {
+            margin-bottom: 14px;
+            font-size: 15px;
+            color: #3a3a3a;
+        }
+        .guide-main li strong {
+            color: #1a1a1a;
+        }
+        .guide-aside {
+            flex: 0 0 300px;
+            background: #f5f2ec;
+            padding: 25px;
+            border-radius: 4px;
+            border: 1px solid #e8e2d6;
+        }
+        .guide-aside h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #1a1a1a;
+            border-bottom: 2px solid #c9a227;
+            padding-bottom: 8px;
+        }
+        .guide-aside ul {
+            list-style: none;
+        }
+        .guide-aside li {
+            padding: 8px 0;
+            border-bottom: 1px dashed #d8d0c0;
+            font-size: 14px;
+            color: #555;
+        }
+        .guide-aside li:last-child {
+            border-bottom: none;
+        }
+
+        /* FAQ */
+        .faq-section {
+            padding: 55px 0;
+            background: #faf8f4;
+        }
+        .faq-list {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            background: #fff;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            padding: 20px 25px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+            border-left: 3px solid #c9a227;
+        }
+        .faq-item h3 {
+            font-size: 17px;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        .faq-item p {
+            font-size: 14px;
+            color: #4a4a4a;
+            line-height: 1.7;
+        }
+
+        /* Footer */
+        .site-footer {
+            background: #1a1a1a;
+            padding: 30px 0;
+            text-align: center;
+            color: #777;
+            font-size: 13px;
+            border-top: 3px solid #c9a227;
+        }
+        .site-footer p {
+            margin-bottom: 4px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-inner {
+                flex-direction: column;
+                gap: 12px;
+                text-align: center;
+            }
+            .site-nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+            }
+            .hero h1 {
+                font-size: 30px;
+                letter-spacing: 3px;
+            }
+            .hero {
+                padding: 50px 0 40px;
+            }
+            .paintings-grid {
+                grid-template-columns: 1fr;
+            }
+            .section-heading h2 {
+                font-size: 25px;
+            }
+            .guide-wrap {
+                flex-direction: column;
+            }
+            .guide-aside {
+                flex: 1;
+            }
+            .intro-content {
+                flex-direction: column;
+            }
+            .intro-highlight {
+                flex: 1;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 14px;
+            }
+            .hero h1 {
+                font-size: 24px;
+            }
+            .hero p {
+                font-size: 14px;
+            }
+            .painting-info h3 {
+                font-size: 18px;
+            }
+        }
+    </style>
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="logo-area">
+            <span class="logo-icon">◈</span>
+            <span class="site-title">男性艺术视界</span>
+        </div>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="#paintings">经典画作</a></li>
+                <li><a href="#themes">精神主题</a></li>
+                <li><a href="#guide">鉴赏指南</a></li>
+                <li><a href="#faq">常见问题</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h1>男人必看10幅画</h1>
+        <div class="hero-divider"></div>
+        <p>穿越五百年的艺术长河，从力量到沉思，从征伐到内省——十幅深刻影响男性精神世界的传世名作，每一幅都值得反复凝视。</p>
+    </div>
+</section>
+
+<section class="intro-section">
+    <div class="container intro-content">
+        <div class="intro-text">
+            <h2>为什么男性需要这些画</h2>
+            <p>艺术从来不是女性的专属领地。历史上最伟大的艺术赞助人、收藏家和艺术评论家中有大量男性，而许多名画本身就在探讨男性气质、责任、力量与脆弱。所谓"男人必看10幅画"，并非指这些画只能由男性观看，而是指这些作品中所蕴含的男性视角、历史叙事和精神困境，能够引发男性观众更深层的共鸣与思考。</p>
+            <p>从文艺复兴时期对人的重新发现，到巴洛克时期的戏剧张力，再到现代艺术对身份的解构——这些画作共同勾勒出一部男性的精神史。它们关乎战争与和平、权力与责任、孤独与陪伴、野心与救赎。</p>
+            <p>这份清单并非权威排名，而是基于艺术史重要性、男性主题相关性以及作品本身的精神启示力综合遴选。无论你是否熟悉艺术史，这些画作都会以某种方式触动你。</p>
+        </div>
+        <div class="intro-highlight">
+            <h3>筛选标准</h3>
+            <ul>
+                <li>艺术史上的里程碑之作</li>
+                <li>深刻反映男性精神命题</li>
+                <li>具备跨时代的启示价值</li>
+                <li>画面叙事具有多重解读空间</li>
+                <li>对当代男性仍有现实映照</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="paintings-section" id="paintings">
+    <div class="container">
+        <div class="section-heading">
+            <h2>十幅必看经典</h2>
+            <p>按艺术史脉络排序，每一幅都打开一扇理解男性气质的窗口</p>
+        </div>
+        <div class="paintings-grid">
+            <!-- 1 -->
+            <article class="painting-card">
+                <div class="painting-image pimg-1">
+                    <span>▦</span>
+                    <div class="painting-number">01</div>
+                </div>
+                <div class="painting-info">
+                    <h3>大卫像</h3>
+                    <div class="painting-artist">米开朗基罗 · 1501-1504</div>
+                    <p>虽然这是一尊雕塑而非画作，但它定义了男性理想美的标准。大卫面对巨人歌利亚时的专注与镇定，是内在力量外化的极致表达。它告诉每个男人：真正的勇气在于准备与决断，而非鲁莽。</p>
+                    <div class="painting-tags">
+                        <span class="tag">力量</span>
+                        <span class="tag">勇气</span>
+                        <span class="tag">文艺复兴</span>
+                    </div>
+                </div>
+            </article>
+            <!-- 2 -->
+            <article class="painting-card">
+                <div class="painting-image pimg-2">
+                    <span>▦</span>
+                    <div class="painting-number">02</div>
+                </div>
+                <div class="painting-info">
+                    <h3>夜巡</h3>
+                    <div class="painting-artist">伦勃朗 · 1642</div>
+                    <p>伦勃朗笔下的民兵连即将出发巡逻，光线在人群中跳跃。这幅画最动人之处在于：集体中的每个个体都有自己独特的表情与姿态。男性群像并非千篇一律，责任与个性可以共存。</p>
+                    <div class="painting-tags">
+                        <span class="tag">责任</span>
+                        <span class="tag">群体</span>
+                        <span class="tag">巴洛克</span>
+                    </div>
+                </div>
+            </article>
+            <!-- 3 -->
+            <article class="painting-card">
+                <div class="painting-image pimg-3">
+                    <span>▦</span>
+                    <div class="painting-number">03</div>
+                </div>
+                <div class="painting-info">
+                    <h3>马拉之死</h3>
+                    <div class="painting-artist">雅克-路易·大卫 · 1793</div>
+                    <p>革命领袖马拉倒在浴缸中，手中的信笺还未读完。这幅画呈现了理想主义者的殉道，也提醒人们：政治热情与个人牺牲之间那条模糊的界线。男性往往被推向前线，但代价是什么？</p>
+                    <div class="painting-tags">
+                        <span class="tag">牺牲</span>
+                        <span class="tag">理想</span>
+                        <span class="tag">新古典主义</span>
+                    </div>
+                </div>
+            </article>
+            <!-- 4 -->
+            <article class="painting-card">
+                <div class="painting-image pimg-4">
+                    <span>▦</span>
+                    <div class="painting-number">04</div>
+                </div>
+                <div class="painting-info">
+                    <h3>自由引导人民</h3>
+                    <div class="painting-artist">欧仁·德拉克洛瓦 · 1830</div>
+                    <p>男子们手持武器跟随自由女神冲锋。这幅画捕捉了男性在历史洪流中的角色：既是行动者，也是追随者。它关于为信念而战的冲动，也关于在混乱中寻找方向的本能。</p>
+                    <div class="painting-tags">
+                        <span class="tag">抗争</span>
+                        <span class="tag">自由</span>
+                        <span class="tag">浪漫主义</span>
+                    </div>
+                </div>
+            </article>
+            <!-- 5 -->
+            <article class="painting-card">
+                <div class="painting-image pimg-5">
+                    <span>▦</span>
+                    <div class="painting-number">05</div>
+                </div>
+                <div class="painting-info">
+                    <h3>拾穗者</h3>
+                    <div class="painting-artist">让-弗朗索瓦·米勒 · 1857</div>
+                    <p>三位农妇在收割后的田地里弯腰拾穗。这不仅是劳动赞歌，更是对尊严的书写——无论多么卑微的劳作，都值得被郑重对待。男性气质不应只与征服挂钩，坚韧的日常同样伟大。</p>
+                    <div class="painting-tags">
+                        <span class="tag">劳作</span>
+                        <span class="tag">尊严</span>
+                        <span class="tag">写实主义</span>
+                    </div>
+                </div>
+            </article>
+            <!-- 6 -->
+            <article class="painting-card">
+                <div class="painting-image pimg-6">
+                    <span>▦</span>
+                    <div class="painting-number">06</div>
+                </div>
+                <div class="painting-info">
+                    <h3>伏尔加河上的纤夫</h3>
+                    <div class="painting-artist">伊利亚·列宾 · 1870-1873</div>
+                    <p>十一人拖着货船在伏尔加河畔前行，表情各异却同样坚毅。列宾没有美化苦难，而是呈现了底层男性的韧性与忍耐。这幅画让人思考：承受力的边界在哪里？而希望又在哪里？</p>
+                    <div class="painting-tags">
+                        <span class="tag">坚韧</span>
+                        <span class="tag">底层</span>
+                        <span class="tag">批判写实</span>
+                    </div>
+                </div>
+            </article>
+            <!-- 7 -->
+            <article class="painting-card">
+                <div class="painting-image pimg-7">
+                    <span>▦</span>
+                    <div class="painting-number">07</div>
+                </div>
+                <div class="painting-info">
+                    <h3>我们从何处来？我们是谁？我们向何处去？</h3>
+                    <div class="painting-artist">保罗·高更 · 1897-1898</div>
+                    <p>高更在塔希提岛创作的这幅巨作，以生命的不同阶段回应人类终极三问。对于常常回避内省的男性而言，这幅画是一个邀请：停下来，思考来路与归途。真正的成熟始于追问。</p>
+                    <div class="painting-tags">
+                        <span class="tag">哲学</span>
+                        <span class="tag">内省</span>
+                        <span class="tag">后印象派</span>
+                    </div>
+                </div>
+            </article>
+            <!-- 8 -->
+            <article class="painting-card">
+                <div class="painting-image pimg-8">
+                    <span>▦</span>
+                    <div class="painting-number">08</div>
+                </div>
+                <div class="painting-info">
+                    <h3>呐喊</h3>
+                    <div class="painting-artist">爱德华·蒙克 · 1893</div>
+                    <p>那个捂住耳朵、面容扭曲的人物，可以是任何人——包括那些习惯沉默的男性。蒙克将焦虑与孤独具象化，宣告了现代人的精神困境。看见这幅画，就是承认脆弱也是人性的一部分。</p>
+                    <div class="painting-tags">
+                        <span class="tag">焦虑</span>
+                        <span class="tag">孤独</span>
+                        <span class="tag">表现主义</span>
+                    </div>
+                </div>
+            </article>
+            <!-- 9 -->
+            <article class="painting-card">
+                <div class="painting-image pimg-9">
+                    <span>▦</span>
+                    <div class="painting-number">09</div>
+                </div>
+                <div class="painting-info">
+                    <h3>亚维农少女</h3>
+                    <div class="painting-artist">巴勃罗·毕加索 · 1907</div>
+                    <p>毕加索以这幅画炸毁了传统透视法，也炸毁了固有的观看方式。对于男性而言，它象征着打破陈规的勇气——包括打破关于"男性应该怎样"的刻板定义。真正的力量在于创造自我。</p>
+                    <div class="painting-tags">
+                        <span class="tag">革新</span>
+                        <span class="tag">立体主义</span>
+                        <span class="tag">颠覆</span>
+                    </div>
+                </div>
+            </article>
+            <!-- 10 -->
+            <article class="painting-card">
+                <div class="painting-image pimg-10">
+                    <span>▦</span>
+                    <div class="painting-number">10</div>
+                </div>
+                <div class="painting-info">
+                    <h3>男人与婴儿</h3>
+                    <div class="painting-artist">古斯塔夫·克里姆特 · 1909</div>
+                    <p>一位父亲怀抱婴儿的画面，在艺术史上并不常见。克里姆特用装饰性的金色与图案，赋予父爱以神圣感。这幅画提醒人们：男性气质中温柔的一面对生命的延续同样重要。</p>
+                    <div class="painting-tags">
+                        <span class="tag">父爱</span>
+                        <span class="tag">温柔</span>
+                        <span class="tag">象征主义</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="theme-section" id="themes">
+    <div class="container">
+        <div class="section-heading">
+            <h2>画作背后的男性命题</h2>
+            <p>十幅画，十个关键词——它们共同构成了男性精神世界的坐标系</p>
+        </div>
+        <div class="theme-grid">
+            <div class="theme-item">
+                <span class="theme-icon">⚔️</span>
+                <h3>勇气与决断</h3>
+                <p>从大卫的专注到自由引导人民中的冲锋，艺术反复描绘男性在关键时刻的选择。勇气不是无所畏惧，而是带着恐惧依然前行。</p>
+            </div>
+            <div class="theme-item">
+                <span class="theme-icon">🛡️</span>
+                <h3>责任与担当</h3>
+                <p>夜巡中的民兵、拾穗者中的农妇——责任未必轰轰烈烈，更多时候是日复一日的坚守。真正的担当体现在细微处。</p>
+            </div>
+            <div class="theme-item">
+                <span class="theme-icon">🌊</span>
+                <h3>承受与韧性</h3>
+                <p>纤夫们弯曲的脊背和紧绷的纤绳，是承受力的视觉隐喻。生活总有重负，但韧性让男人在重压下依然向前。</p>
+            </div>
+            <div class="theme-item">
+                <span class="theme-icon">💭</span>
+                <h3>内省与追问</h3>
+                <p>高更的终极三问和蒙克的焦虑，提醒男性留出思考的时间。外在的行动固然重要，内在的清明才是指引方向的罗盘。</p>
+            </div>
+            <div class="theme-item">
+                <span class="theme-icon">💔</span>
+                <h3>脆弱与真实</h3>
+                <p>呐喊中的无助、马拉之死中的牺牲，都指向一个事实：男性也有脆弱时刻。承认这一点，反而通向更完整的自我。</p>
+            </div>
+            <div class="theme-item">
+                <span class="theme-icon">👶</span>
+                <h3>温柔与传承</h3>
+                <p>克里姆特笔下的父爱，打破了"男性不善于表达情感"的刻板印象。温柔不是软弱，而是另一种力量。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="guide-section" id="guide">
+    <div class="container guide-wrap">
+        <div class="guide-main">
+            <h2>如何欣赏这些画作</h2>
+            <ol>
+                <li><strong>先看整体，再看细节：</strong>站在画作前留出至少三分钟，先感受整体氛围与色彩，再走近观察笔触和局部叙事。</li>
+                <li><strong>了解背景但不被背景束缚：</strong>知道创作年代与画家经历有助于理解，但不必过度依赖——你个人的感受同样重要。</li>
+                <li><strong>提问比答案更重要：</strong>问自己"画中的人正在经历什么？""如果是我在画中，我会如何反应？"这样的问题能打开更深层的对话。</li>
+                <li><strong>反复观看：</strong>好画值得在不同的人生阶段反复观看。二十岁看到的与四十岁看到的往往不同——这恰恰是艺术的深度所在。</li>
+                <li><strong>与朋友讨论：</strong>独自观看是享受，与人分享是延伸。不同视角的碰撞会让你发现意想不到的维度。</li>
+            </ol>
+        </div>
+        <aside class="guide-aside">
+            <h3>观画小贴士</h3>
+            <ul>
+                <li>美术馆开馆时段的上午人最少，适合静心观看</li>
+                <li>手机调至静音，给自己一段不受打扰的时间</li>
+                <li>不必强求看懂"标准答案"，个人感受同样有价值</li>
+                <li>如果无法亲临原作，高清数字版本也能提供足够信息</li>
+                <li>尝试用手机拍下画作局部，放大观察笔触的节奏</li>
+                <li>看完后可以简单记录第一印象，日后再对照</li>
+            </ul>
+        </aside>
+    </div>
+</section>
+
+<section class="faq-section" id="faq">
+    <div class="container">
+        <div class="section-heading">
+            <h2>常见问题</h2>
+            <p>关于"男人必看10幅画"你可能想知道的</p>
+        </div>
+        <div class="faq-list">
+            <div class="faq-item">
+                <h3>为什么有些画我完全看不懂？</h3>
+                <p>完全正常。艺术不是一个需要"看懂"的谜题，而是一种体验。即使是专业艺术史学者，也会对同一幅画有不同解读。看不懂时，不妨先欣赏色彩、构图和氛围，让感受先于理解。</p>
+            </div>
+            <div class="faq-item">
+                <h3>这些画对男性有什么实际帮助？</h3>
+                <p>艺术无法直接解决现实问题，但它能改变你看待问题的角度。这些画作提供了关于勇气、责任、孤独、内省等议题的视觉沉思，长期观看会潜移默化地丰富你的精神世界。</p>
+            </div>
+            <div class="faq-item">
+                <h3>我应该按什么顺序欣赏？</h3>
+                <p>没有固定顺序。你可以按本文的编号顺序，也可以从最吸引你目光的一幅开始。建议每次只深入欣赏一到两幅，而不是一口气看完所有十幅——好画需要消化时间。</p>
+            </div>
+            <div class="faq-item">
+                <h3>这些画在哪里可以看到原作？</h3>
+                <p>大卫像在佛罗伦萨学院美术馆，夜巡在荷兰国立博物馆，自由引导人民在卢浮宫，拾穗者在奥赛博物馆，伏尔加河上的纤夫在俄罗斯博物馆，呐喊在奥斯陆国家美术馆。其他几幅分散在不同国家的博物馆中，具体位置建议出行前查询官方信息。</p>
+            </div>
+            <div class="faq-item">
+                <h3>还有哪些值得男性观看的画作？</h3>
+                <p>这份清单只是起点。其他值得探索的还包括：委拉斯开兹的《宫娥》、戈雅的《1808年5月3日》、弗里达·卡罗的自画像、培根的《教皇肖像》等。关键不是看多少，而是看得有多深。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>◈ 男性艺术视界 · 以画观心</p>
+        <p>艺术欣赏是终身的修行，愿你在这些画作中找到属于自己的回响。</p>
+    </div>
+</footer>
+
+</body>
+  </html>
